@@ -1,0 +1,34 @@
+.lion
+{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   letter-spacing: 0.3em; 
+   font-size:2em;
+   padding:5px;
+   width:50%;
+   border: 2px outset;
+   box-shadow: 11px 8px 5px black;
+   letter-spacing: 1em;
+     padding:5px;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 30px;
+}
+.navbar-brand
+{
+background-color: snow;
+padding:10px;
+height:20px;  
+}
+.devil
+{
+    background-color:darkorange
+    color: black;
+    padding:5px;
+    margin:0px;
+    position: fixed;
+    bottom: 0px;
+    right:5%;
+    font-size: 30px;
+}
