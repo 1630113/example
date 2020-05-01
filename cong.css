@@ -1,0 +1,29 @@
+body
+{
+    background:url(https://images.unsplash.com/photo-1517981834318-5f56734fe518?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}
+a
+{
+    color: yellow;
+    font-family:Tahoma, Geneva, sans-serif;
+    margin-left: 30px;
+}
+.cong
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    
+    height: 200px;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 240px;
+}
+h2
+{
+    margin-top: 50px;
+    margin-left: 10px;
+}
