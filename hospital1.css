@@ -1,0 +1,252 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+   
+   background-image: url(https://images.unsplash.com/photo-1579781403313-56447cb42199?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+background-position: center; 
+  /* background-size: cover; */
+  
+}
+body
+{
+    /* background-image: url(https://images.unsplash.com/photo-1579781354147-e863d998e97f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60); */
+   /* background-position: center;  */
+   /* background-image: url(https://images.unsplash.com/photo-1579781354147-e863d998e97f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60); */
+   /* background-size: cover;  */
+}
+.container
+{
+margin-right: 50px;
+margin-left:50px;
+
+}
+body::-webkit-scrollbar
+{
+    height: 10px;
+    background-color: yellow;
+}
+body::-webkit-scrollbar-thumb
+{
+    background-color: violet;
+}
+.header-text
+{
+    color:yellow;
+    max-width:320px;
+    margin:2px;
+    padding:2px;
+}
+.jio
+{
+    background-color: darksalmon;
+    position: fixed;
+
+}
+.sq
+{
+    height:12px;
+    width: 12px;
+    display: inline-block;
+    background-color:blue;
+    margin: 15px 0 ;
+}
+.common-btn
+{
+    /* color: springgreen; */
+     padding:5px;
+     margin:5px;
+    /* background: transparent; */
+    outline: none;
+    border: 2px solid #f67c92;
+    /* font-weight: bold; */
+    cursor: pointer; 
+   border-radius:5%;
+   font-style: italic;
+   
+}
+.line-1
+{
+    width:12px;
+    height:12px;
+    background-color: blue;
+    display: inline-block;
+}
+.line-2
+{
+    width:60px;
+    height:2px;
+    background-color:greenyellow;
+    display: inline-block;
+}
+.line-3
+{
+    width:40px;
+    height:2px;
+    background-color: blue;
+    display: inline-block;
+}
+.line
+{
+    height:3px;
+}
+#sidenav
+{
+    width:120px;
+    height: 100%;
+    position: fixed;
+    right:0;
+    top:0;
+    background-color: #f67c92;
+    z-index: 3;
+    transition: 0.5s;
+    /* text-shadow: black; */
+}
+
+nav ul li {
+list-style: none;
+margin:50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#menubar{
+    width:25px;
+    position: absolute;;
+     top: 0;
+    left:90%;
+    /* height: 100hv; */
+}
+#sidenav.active
+{
+    right:0px;
+}
+
+.toggle-btn
+{
+position:fixed;
+right:0;
+top:1;
+display: inline-block;
+width:80px;
+height: 5px;
+background-color:yellow;
+}
+
+/* about */
+#about
+{
+    padding: 100px 0;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.about-left-col img {
+    width:70%;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-right-col{
+    flex-basis:50%;
+    text-align:right;
+}
+.cat1
+{
+position: fixed;
+width: 20px;
+}
+.dog
+{
+    position: fixed;
+}
+.about-text
+{
+    max-width: 500px;
+    margin-right: 200px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style:italic;
+}
+.about-text h3{
+    /* margin: 50px 0 10px; */
+    font-size: 28px;
+    font-style:italic;
+    color:red;
+}
+/* semptoms */
+.sem-row
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.row
+{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.article
+{
+    display: inline-block;
+    padding: 10px;
+    width:30%;
+    font-style: italic;
+     /* border: 2px outset; */
+   /* box-shadow: 11px 8px 5px black; */
+
+}
+.cat
+{
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   letter-spacing: 0.3em; 
+   font-size:1.5em;
+   padding:5px;
+   width:40%;
+   border: 2px outset;
+   box-shadow: 11px 8px 5px black;
+}
+.article-image
+{
+display:inline-block;
+    
+    padding: 05px;
+    box-sizing: border-box;
+    max-width:60%;
+    border-radius:50%;
+
+}
+.article-tag
+{
+    background-color: #35696e;
+    color:#fff;
+    border-radius: 10px;
+}
+.mouse
+{
+    color: indigo;
+    font-size: 20px;
+}
+.help
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: chartreuse;
+    background-color: darkblue;
+    font-size: 20px;
+}

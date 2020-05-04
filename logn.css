@@ -8,6 +8,29 @@ body
     background-position: center;
 
 }
+.navbar-brand
+{
+background-color: snow;
+padding:10px;
+height:20px;  
+}
+.lion
+{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size:2em;
+   padding:5px;
+   width:70%;
+   border: 2px outset;
+   box-shadow: 11px 8px 5px black;
+   letter-spacing:0.2em;
+     padding:5px;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    left: 200px;
+    font-size: 30px;
+    color:blue;
+}
 .signin
 {
     background: rgba(44,62,80,0.7);

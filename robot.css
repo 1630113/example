@@ -1,0 +1,131 @@
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+padding:50px;
+background-color:dimgrey
+}
+#robot
+{
+    width: 300px;
+    height: 650px;
+    margin: 50px auto 0;
+    position: relative;
+    /* border: 1px solid #ffaabb; */
+}
+.look
+{
+    background-color: #ffaabb;
+    width: inherit;
+    height: inherit;
+}
+#head
+{
+    width: 80px;
+    height: 75px;
+    position: absolute;
+    top:0;
+    left:110px;
+}
+#torso
+{    
+    position: absolute;
+    top:80px;
+    left:100px;
+     width: 0;
+      height: 0;
+      border-top:260px solid #ffaabb;
+      border-left:50px solid transparent;
+      border-right: 50px solid  transparent;
+   
+    
+}
+#torso:hover
+{
+ transform: scale(0.8
+ 
+ 
+ );
+}
+#rightarm
+{
+    width: 25px;
+    height: 240px;
+    position: absolute;
+    top:110px;
+    right:80px;
+}
+#leftarm
+{
+    width: 25px;
+    height: 240px;
+    position: absolute;
+    top:110px;
+    left:80px;
+}
+.upperarm
+{
+    width: 25px;
+    height: 50px;
+}
+.forearm
+{
+    width: 25px;
+    height: 100px;
+    margin-top: 10px;
+}
+#leftleg
+{
+    width:25px;
+    height:180px;
+    position: absolute;
+    top: 280px;
+    left:110px;
+}
+#rightleg
+{
+    width:25px;
+    height:180px;
+    position: absolute;
+    top: 280px;
+    right:110px;
+}
+.thigh
+{
+    width: 30px;
+    height: 120px;
+}
+.lowerleg
+{
+    width: 30px;
+    height: 170px;
+    margin-top: 10px;
+}
+.shoeleft,
+.shoeright
+{
+    width: 30px;
+    height: 10px;
+    position: relative;
+    background-color: black;
+}
+#leftarm:hover
+{
+    transform:rotate(30deg);
+}
+#rightarm:hover{
+    transform:rotate(-30deg);
+}
+#head:hover
+{
+    transform: scale(1.2);
+    box-shadow: rgba (red, green, blue, alpha) (20, 49, 56, 0.993)100px 200px 300px;
+    inset: rgba(0,0,0,0.8) 10px 30px 4opx;
+}
+#leftleg:hover
+{
+    transform: rotate(20deg);
+}
+#rightleg:hover
+{
+    transform: rotate(-20deg);
+}
