@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: burlywood; */
+}
+.hero
+{
+    height: 100vh;
+    width:100%;
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    /* transform:rotate(360deg); */
+
+}
+.highway
+{
+    height: 200px;
+    width:500%;
+    display:block;
+    background-image: url(road.jpg);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right:0px ;
+    z-index:1;
+    background-repeat: repeat-x;
+    animation:highway 5s linear infinite;
+}
+@keyframes  highway
+{
+    100%
+    {
+        transform: translateX(-3400px);
+    }
+}
+.city
+{
+    height: 250px;
+    width: 500%;
+    background-image: url(city.png);
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: city 20s linear infinite;
+}
+@keyframes  city
+{
+    100%{
+        transform: translateX(-1400px);
+    }
+
+}
+.car
+{
+    width: 400px;
+    left:50%;
+    /* background-image: url(car.png); */
+    bottom: 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    
+
+}
+.car img
+{ 
+    width: 100%;
+    animation: car 1s linear infinite;
+     /* background-image: url(car.png); */
+
+}
+@keyframes car
+{
+100%
+{
+    transform: translateY(-1px);
+}
+50%
+{
+    transform: translateY(1px);
+}
+0%
+{
+    transform: translateY(1px);
+}
+}
+.wheel
+{
+    left:50px;
+    bottom: 178px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    transform:rotate(360deg);
+
+}
+.wheel img
+{
+width: 72px;
+height: 72px;
+animation: car 1s linear infinite;
+transform:rotate(360deg);
+}
+.back-wheel
+{
+    left:740px;
+    position: absolute;
+    transform:rotate(360deg);
+}
+.fornt-wheel
+{
+    left:495px;
+    position: absolute;
+    transform:rotate(360deg);
+}
+@keyframes wheel
+{
+100%
+{
+    transform:translateX(-50px);
+}
+}
+.back-wheel{
+      transform:rotate(360deg);
+}
+
