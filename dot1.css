@@ -1,0 +1,43 @@
+body{
+    background: #B2FEFA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container
+{
+    display: flex;
+    height:40vh;
+    flex-wrap: wrap;
+    width:380px;
+    border: 2px solid black;
+    /* margin: 0 auto; */
+    
+
+}
+.item
+{
+    background-color: cadetblue;
+    width:40px;
+    /* padding:10px; */
+    border-radius:70px;
+    margin: 10px;
+}
+.plates
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:gray;
+}
+.color-opation
+{
+    width:20px ;
+    height:20px ;
+    margin: 10px;
+    border: 2px solid yellow;
+}
