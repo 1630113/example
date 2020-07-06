@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#42455a;
+}
+.container
+{
+    height: 100%;
+    width:100%;
+    
+}
+ nav ul{
+    list-style-type: none;
+      
+} 
+
+.menu li
+{
+    display: inline-flex;
+    padding-left:5px;
+    margin:20px;
+    color: #b2b1b1;
+    cursor: pointer;
+    font-weight:bold;
+    /* box-shadow:3px 4px 2px 2px chartreuse; */
+    text-shadow: 2px 2px 2px darkgoldenrod;
+
+}
+li:hover
+{
+    color: red;
+}
+.logo img
+{
+    margin-top:8px;
+    margin-right: 10px;
+}
+.logo1
+{
+    float:right;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    color:white;
+    padding: 8px 12px;
+    display: block;
+    text-decoration:underline;
+}
+.hari2
+{
+    color: white;
+    font-size:20px;
+    margin: 20px;
+    padding-left: 20px;
+}
+.hari3
+{
+    color: gray;
+    font-size: 13px;
+    margin:30px;
+    padding-left:20px;
+    line-height:15px;
+}
+.hari4 
+{
+    width: 40%;
+    float: right;
+    padding-right: 30px;
+    padding-bottom:60px;
+    position: relative;
+    bottom: 30px;
+}
+.hari4 img
+{
+    width: 100%;
+    float: right;
+     padding-right: 30px;
+    padding-bottom:60px;
+    position: relative;
+    bottom:60px;
+}
+ .play-btn-inn
+ {
+
+ margin-left:45px;
+     /* padding: 10px; */
+    height: 50px;
+    width: 50px; 
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#42455a,#42455a),
+    radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin:border-box ;
+    background-clip: content-box,border-box;  
+    text-align: center;
+
+} 
+.play-btn-inn .fa
+{
+    padding:18px 0;
+    font-size:13px;
+    cursor: pointer;
+}
+ .play-btn{
+    
+      display: inline-flex;
+      color: yellow;
+} 
+small{
+    margin-left:60px;
+    position: relative;
+    bottom:40px;
+    font-style: italic;
+}
+
+.quick-link ul
+{
+
+    text-align: center;
+    display: inline-flex;
+      list-style-type: none;
+    cursor: pointer;
+}
+.icon
+{
+    
+     padding: 30px;
+      position: relative;;
+     top:520px;
+    left:20px;
+    color: blanchedalmond;
+    margin: 0;
+    padding:5px;
+
+} 
+
+ .social
+{
+ padding: 30px;
+      position: relative;
+     top:390px;
+    left:12px;
+    color: blanchedalmond;
+} 
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size:10px;
+  width:20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 10px;
+  /* position: absolute; */
+  /* top:200px; */
+}
+.fa-instagram {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+
+
