@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game quize </title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form name="quiz" onsubmit="return  ready()">
+
+            <h1 align="center">Simple Quize Application</h1>
+            <h2 class="result" align="center">score:<span class="Fa"></span></h2>
+            <h3 class="lion">What is Html?</h3>
+            <input type="radio" name="q1" value="a" id="q1a " /><label>scripting laguage</label><br />
+            <input type="radio" name="q1" value="b" id="q1b " /><label>programming laguage</label><br />
+            <input type="radio" name="q1" value="c" id="q1c " /><label>backend laguage</label><br />
+            <input type="radio" name="q1" value="d" id="q1d " /><label>All</label><br />
+
+            <h3>Css is used for?</h3>
+            <input type="radio" name="q2" value="a" id="q2a " /><label>Desiging</label><br />
+            <input type="radio" name="q2" value="b" id="q2b " /><label>Backend</label><br />
+            <input type="radio" name="q2" value="c" id="q2c " /><label>structuring </label><br />
+            <input type="radio" name="q2" value="d" id="q2d " /><label>All</label><br />
+
+            <h3>Full form of Html?</h3>
+            <input type="radio" name="q3" value="a" id="q3a " /><label>hyper Text markup laguage</label><br />
+            <input type="radio" name="q3" value="b" id="q3b " /><label>hyper text makeup language</label><br />
+            <input type="radio" name="q3" value="c" id="q3c " /><label>hyper text main lahuage </label><br />
+            <input type="radio" name="q3" value="d" id="q3d " /><label>none</label><br /><br />
+
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
