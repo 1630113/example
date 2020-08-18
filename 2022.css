@@ -1,3 +1,14 @@
+/* clothes templates */
+
+
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+
+
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
 /* for slid section */
 body {
       
@@ -172,4 +183,190 @@ color:gainsboro;
      color:yellow;
      font-weight: bold;
 
+}
+.toggle
+{
+      display: inline-flex;
+      display: inline-block;
+      
+}
+.modal-header ,.modal ,.fade,.modal-content,.modal-dialog
+{
+      width: 120%;
+      position: relative;
+      right: 100px;
+      background: transparent;
+      /* background-color: yellow; */
+      border: none;
+      /* border: 1px solid white; */
+      margin: 20px;
+      margin-top: 20px;
+
+}
+
+.modal-header1 ,.modal1 ,.fade1,.modal-content1,.modal-dialog1
+{
+      width: 120%;
+      position: relative;
+      /* right: 100px; */
+      background: transparent;
+      /* background-color: yellow; */
+      border: none;
+      /* border: 1px solid white; */
+      margin: 20px;
+      margin-top: 20px;
+
+}
+/* .modal,.modal-content,.modal-dialog,.modal-header
+{
+ width: 100%;
+ margin-left: 20px;
+} */
+
+.read
+{
+      margin: 20px;
+}
+.pimage
+{
+      margin: 20px;
+      padding: 20px;
+      /* background-color: cadetblue; */
+}
+/* }
+ .pimage:hover
+{
+color: cornflowerblue;
+}
+  */
+
+.model{
+      position: relative;
+      right:900px;
+      bottom: 220px;
+
+}
+.modela{
+      position: relative;
+      right:670px;
+      bottom: 300px;
+
+}
+
+.modelb{
+      position: relative;
+      right:420px;
+      bottom: 350px;
+
+}
+
+.modelc{
+      position: relative;
+      right:130px;
+      bottom: 410px;
+
+}
+.modal-footer,.modal,.fade
+{
+      margin-left:100px;
+      position: relative;
+      left: 60px;
+}
+.model10
+{
+     
+      position: relative;
+      right:880px;
+      bottom: 220px;
+
+
+}
+.modal-body,.manson
+{
+    position: relative; 
+    left: 350px; 
+    margin-left: 100px;
+}
+.manson,.modal-body
+{
+      position: relative;
+      right:1200px;
+      color: lightsalmon;
+      line-height:0.5px;
+      font-weight: bold;
+
+}
+.float
+{
+      position: relative;
+      left: 900px;
+      margin-left: 900px;
+}
+.read-write
+{
+      margin: 10px;
+}
+.read1
+{
+      margin: 15px;
+}
+.hor{
+      position: relative;
+      bottom: 30px;
+}
+.model10
+{
+      position: relative;
+      
+      right:1000px;
+      bottom: 200px;
+      
+}
+.model20a{
+       position: relative;
+      /* left:900px; */
+      bottom:280px; 
+      right: 800px;
+
+}
+.model20c
+{
+
+     position: relative;
+      /* left:900px; */
+      bottom: 400px; 
+      right: 580px;
+
+}
+.model20b
+{
+
+     position: relative;
+      /* left:900px; */
+      bottom: 360px; 
+      right: 340px;
+
+}
+.mansona
+{
+      color: magenta;
+      position: relative;
+      top:100px;
+      left: 500px;
+      font-weight: bold;
+}
+
+.mansonaa
+{
+      color: red;
+      position: relative;
+      top:70px;
+      left: 300px;
+      font-weight: bold;
+       font-family: 'Merriweather', serif;;
+}
+.close10
+{
+      position: relative;
+      right: 400px;
 }
