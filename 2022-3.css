@@ -1,0 +1,175 @@
+/* for slid section */
+body {
+      
+      font-family: "Lato", sans-serif;
+      /* background-color: blueviolet; */
+}
+
+
+
+.mySlides {display: none}
+
+.pistol
+{
+      
+      background-color: yellow;
+      width:1300px;
+      height:400px;
+}
+.header
+{
+      position: relative;
+      top:30px
+}
+.pistol2
+{
+      
+      background-color:pink;
+      width:1300px;
+      height:400px;
+
+}
+.pistol3
+{
+      background-color:darkblue;
+      width:1300px;
+      height:400px;
+}
+.head10
+{
+      position: relative;
+       left:280px; 
+      
+
+      font-size: 40px;
+      color:white;
+      
+}
+.head-a
+{
+      
+
+      position: relative;
+      left:280px;
+
+      font-size: 20px;
+      color:wheat;
+}
+.head-aa
+{
+      
+
+      position: relative;
+      left:280px;
+
+      font-size: 20px;
+      color: black;
+}
+
+.head-aaa
+{
+      
+
+      position: relative;
+      left:280px;
+
+      font-size: 20px;
+      color: red;
+}
+
+/* for 2nd slid */
+
+
+.head20
+{
+
+     
+      position: relative;
+       left:280px; 
+      font-size: 40px;
+      color:white;
+      
+
+
+}
+.head-b
+{
+      
+      position: relative;
+      left:280px;
+
+      font-size: 20px;
+      color:wheat;
+
+}
+.head-bb
+{
+    
+    
+      position: relative;
+      left:280px;
+
+      font-size: 20px;
+      color: black;
+
+}
+.head-bbb
+{
+      
+    
+
+     
+     position: relative;
+     left:280px;
+
+     font-size: 20px;
+     color: red;
+}
+
+
+     .head30
+{
+      
+    
+      
+      position: relative;
+       left:280px; 
+       margin-bottom: 20px;
+      font-size: 30px;
+      color:yellowgreen;
+      
+
+
+}
+.head-c
+{
+
+position: relative;
+left:280px; 
+font-size: 20px;
+color:gainsboro;
+
+
+}
+.head-cc
+{
+      
+
+      position: relative;
+       left:278px;  
+      
+      font-size: 20px;
+      color:ghostwhite;
+
+}
+.head-ccc
+{
+
+      position: relative;
+     left:280px;
+     
+     font-size: 20px;
+     color:yellow;
+     font-weight: bold;
+
+}

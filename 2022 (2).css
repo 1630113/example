@@ -1,0 +1,65 @@
+
+
+
+body{
+      background-color: chartreuse;
+      width: 1300px;
+}
+
+
+.pistol
+{
+      
+      background-color: yellow;
+      width:1300px;
+      height:400px;
+}
+.pistol2
+{
+      
+      background-color:pink;
+      width:1300px;
+      height:400px;
+
+}
+.head10
+{
+      position: relative;
+      left:160px;
+      
+
+      font-size: 40px;
+      color: white;
+      
+}
+.head-a
+{
+      
+
+      position: relative;
+      left:90px;
+
+      font-size: 20px;
+      color:wheat;
+}
+.head-aa
+{
+      
+
+      position: relative;
+      left:160px;
+
+      font-size: 20px;
+      color: black;
+}
+
+.head-aaa
+{
+      
+
+      position: relative;
+      left:160px;
+
+      font-size: 20px;
+      color: red;
+}
