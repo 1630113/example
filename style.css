@@ -4,14 +4,17 @@ body {
     background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container {
+    background-image: url("https://images.unsplash.com/photo-1593693846850-286e83655126?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 50px auto;
-    background-color: cadetblue;
+    /* background-color: lightgreen; */
     height: 900px;
-    width: 500px;
+    width: 900px;
 }
 
 .lion {
@@ -59,4 +62,9 @@ button {
     position: fixed;
     left: 220px;
     top: 0;
+}
+
+.sub {
+    width: 120px;
+    border-radius: 50%;
 }
