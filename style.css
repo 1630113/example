@@ -1,23 +1,62 @@
-body{
-    /* background-color: cadetblue; */
+body {
+    background: #aa4b6b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.container
-{
-    
-    margin:50px auto;
-background-color: cadetblue;
-height:900px;
-width: 500px;
+
+.container {
+    margin: 50px auto;
+    background-color: cadetblue;
+    height: 900px;
+    width: 500px;
 }
-.lion
-{
-    display:block;
+
+.lion {
+    display: block;
 }
-button
-{
-    margin-left:150px;
+
+button {
+    margin-left: 150px;
     padding: 10px 12px;
     height: 30px;
-    box-shadow:5px 6px 3px black;
+    box-shadow: 5px 6px 3px black;
     margin-top: 30px;
+    /* position: absolute;
+    top: 20px;
+    left: 40px; */
+}
+
+#begen {
+    position: fixed;
+    top: 20px;
+    left: 530px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+#begen:hover {
+    color: blue;
+}
+
+.timer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#minutes {
+    position: fixed;
+    left: 170px;
+    top: 0;
+}
+
+#seconds {
+    position: fixed;
+    left: 220px;
+    top: 0;
 }
